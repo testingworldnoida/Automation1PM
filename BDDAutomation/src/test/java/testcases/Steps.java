@@ -12,7 +12,7 @@ public class Steps {
 	public void user_is_on_login_page() throws Throwable {
 	    System.setProperty("webdriver.chrome.driver", "C:/Users/TestingWorld/Downloads/chromedriver_win32 (10)/chromedriver.exe");
 		driver = new ChromeDriver();
-		driver.get("https://www.facebook.com");
+		driver.navigate().to("https:/www.google.com/");
 		
 	}
 
